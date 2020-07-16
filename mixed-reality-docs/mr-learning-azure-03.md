@@ -53,7 +53,7 @@ The necessary credentials for the **ObjectDetectionManager (script)** settings c
 
 ### Azure Portal
 
-Find and locate the custom vision resource of type **Cognitive Services** you have created in the *Preparing the scene* section of this tutorial. There click on *Keys and Endpoint* to retrieve the necessary credentials.
+Find and locate the custom vision resource of type **Cognitive Services** you have created in the *Preparing the scene* section of this tutorial. There click on *Overview* to get the **Subscription Id** and then click on *Keys and Endpoint* to retrieve **Api Key** and **Base Endpoint**.
 
 ### Custom Vision Dashboard
 
