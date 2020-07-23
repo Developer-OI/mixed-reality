@@ -31,8 +31,10 @@ Before you can start, you have to create a custom vision project, the fastest wa
 
 Follow this [quickstart tutorial](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier#choose-training-images) to setup your account and project until section *Upload and tag images*.
 
-> [!WARNING]
+> [!NOTE]
 > To train a model you need to have at least 2 tags and 5 images per tag. To use this application you should at least create one tag with 5 images, so that the training process later won't fail.
+
+Take with your smartphone or camera 5 pictures from a simple object like a computer mouse or a water bottle. Now enter the [custom vision portal](https://www.customvision.ai/projects) and select the project you have created previously. There you find at the top the button **Add Images**, click it and submit the 5 pictures. Now the **Image upload** window appears and shows the selected images, here you must specify a **tag** in the text field. Type in the text field *first_image_tag* and click the upload button, after the upload is completed your custom vision project is ready.
 
 ## Preparing the scene
 
