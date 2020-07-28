@@ -70,13 +70,13 @@ The **DataManager (script)** is responsible for talking to the **Table storage**
 
 With everything prepared it's time to create a *Tracked Object*.
 
-Open the application on your HoloLens, click on the **Set Object** and you will see how the *EnterObjectName* object will become active in the hierarchy. In this menu click on the *search bar* and type in the name you want to give the *Tracked Object*. After providing a name click on the **Set object** button. This will create the *Tracked Object* on the Azure Table storage and you will see now the **Object Card**.
+Open the application on your HoloLens, click on the **Set Object** and you will see how the *EnterObjectName* object will become active in the hierarchy. In this menu AirTap on the *text bar* and type in the name you want to give the *Tracked Object*. After providing a name click on the **Set object** button. This will create the *Tracked Object* on the Azure Table storage and you will see now the **Object Card**.
 
 This **Object Card** is a UI representation of the *Tracked Object* and will have an important role several times in this tutorial series.
 
-Now click on the description *text box* and type in "Car", after that click on the **Save** button to save the changes. Stop the application and rerun it.
+Now AirTap on the description *text box* and type in "Car", after that click on the **Save** button to save the changes. Stop the application and rerun it.
 
-Now this time click on **Search Object** and type in the *search bar* the name you have used before when creating the *Tracked Object*. You will see that the **Object Card** with all the data is retrieved from the **Azure Table storage**.
+Now this time click on **Search Object** and then AirTap on the *search bar* to type the name you have used before when creating the *Tracked Object*. You will see that the **Object Card** with all the data is retrieved from the **Azure Table storage**.
 
 Feel free to close the **Object Card** and create new *Tracked Objects* and edit their data.
 
@@ -90,7 +90,7 @@ In this section you will use the Azure Blob storage to upload and download image
 > [!NOTE]
 > In this tutorial the application will take photos to upload images to the Blob storage. If you are running this locally from the Unity editor, then make sure that you have a webcam connected to your computer.
 
-Open the application on your HoloLens, click on **Set Object** and type in the *search bar* the name "Car". Now you should see the **Object Card**, click on the **Camera** button and you will be instructed to do an AirTap to take a photo. After taking a photo you will see a message that informs you about the active upload and after a while the image should appear where the placeholder was before.
+Open the application on your HoloLens, click on **Set Object** and then AirTap on the *text bar* to type the name "Car". Now you should see the **Object Card**, click on the **Camera** button and you will be instructed to do an AirTap to take a photo. After taking a photo you will see a message that informs you about the active upload and after a while the image should appear where the placeholder was before.
 
 Now rerun the application and search for the *Tracked Object* and the previously uploaded image should appear as thumbnail.
 
@@ -98,7 +98,7 @@ Now rerun the application and search for the *Tracked Object* and the previously
 
 In the previous section you uploaded new images to Azure Blob storage, in this section you will delete an image thumbnail for *Tracked Objects*.
 
-Open the application on your HoloLens, click on **Set Object** and type in the *search bar* the name "Car". Now you should see the **Object Card** with the thumbnail image, click on the **Delete** button. You will notice that the thumbnail image is replaced by the placeholder image.
+Open the application on your HoloLens, click on **Set Object** and AirTap on the *text bar* to type the name "Car". Now you should see the **Object Card** with the thumbnail image, click on the **Delete** button. You will notice that the thumbnail image is replaced by the placeholder image.
 
 Now rerun the application and search for the *Tracked Object* of the previously deleted thumbnail, you should only see the placeholder image.
 

@@ -71,7 +71,7 @@ You see *Object Detection Manager* field in the **SceneController** component is
 
 ## Take and upload images
 
-Run the scene and click on **Set Object**, type in the name for one of the **Tracked Objects** you have created in the [previous lesson](mr-learning-azure-02.md). Now click on **Computer Vision** button you can find at the bottom of the **Object Card**.
+Run the scene and click on **Set Object**, then AirTap on the *text bar* to type the name for one of the **Tracked Objects** you have created in the [previous lesson](mr-learning-azure-02.md). Now click on **Computer Vision** button you can find at the bottom of the **Object Card**.
 
 A new window will open where you have to take six photos to train the model for image recognition. Click on the **Camera** button and perform an AirTap when you look on the object you like to track, do this six times.
 
@@ -85,7 +85,7 @@ Once you have enough images click on the **Train** button to start the model tra
 
 ## Detect objects
 
-You can now put the trained model to the test, run the application and from the *main menu* click on **Search Object** and type the name of the **Tracked Object** in question. The **Object Card** will appear and click on the **Custom Vision** button. From here the **ObjectDetectionManager** will start taking image captures in the background from the camera and the progress will be indicated on the menu. Point the camera to the object you used to train the model and you will see that after a short while it will detect the object.
+You can now put the trained model to the test, run the application and from the *main menu* click on **Search Object**, then AirTap on the *search bar* to type the name of the **Tracked Object** in question. The **Object Card** will appear and click on the **Custom Vision** button. From here the **ObjectDetectionManager** will start taking image captures in the background from the camera and the progress will be indicated on the menu. Point the camera to the object you used to train the model and you will see that after a short while it will detect the object.
 
 ## Congratulations
 

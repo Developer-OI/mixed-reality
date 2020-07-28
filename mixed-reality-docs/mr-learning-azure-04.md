@@ -65,7 +65,7 @@ In this section you will see how to save the object location.
 
 Run the application and click on **Set Object** in the main menu of the experience.
 
-Give the **name** of the object you want to save and click on **Set Object** to continue. To add more information about the object, select the **image**, and describe the object.
+AirTap on the *text bar* to type the **name** of the object you want to save and click on **Set Object** to continue. To add more information about the object, select the **image**, and describe the object.
 
 To save the location, click on **Save Location**
 
@@ -79,7 +79,7 @@ Now the object location is saved successfully.
 
 Once after you successfully saved the anchor location, now you can find the anchor location by selecting **Search Object** in the main menu.
 
-After clicking on **Search Object**, a new window will pop up in which you should give the name of the object you want to search.
+After clicking on **Search Object**, a new window will pop up in which you can type the name of the object you want to search by doing an AirTap on the *search bar*.
 
 Enter the name of the object and click on **Search Object**. If the object is saved previously and is found in the database, you will get the object card with all the details of the object you would have saved earlier.
 
