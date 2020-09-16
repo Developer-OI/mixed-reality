@@ -34,7 +34,7 @@ Your Holographic Remoting app is now ready to build on your PC. Follow the below
 
 In the Unity menu, select Edit > Project Settings to open the Player Settings window.
 
-In the Project Settings window, expand the Publishing Settings, scroll down to the Capabilities section and select the below-shown capability checkbox in addition to the existing capabilities.
+In the Project Settings window, expand the **Publishing Settings**, scroll down to the **Capabilities** section and select the below-shown capability checkbox in addition to the existing capabilities.
 
 - Internet Clint server
 - Private Network Client Server
